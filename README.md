@@ -10,6 +10,8 @@ The `github3` package needs to be installed from source:
 
 ```
 # in the environment you will be installing all the packakages into
+mkdir -p ~/git/clone
+cd ~/git/clone
 git clone git@github.com:sigmavirus24/github3.py.git
 cd github3.py
 pip install -e .
